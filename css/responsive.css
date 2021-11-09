@@ -1,0 +1,96 @@
+/*
+-----------------------------
+|   | Media Queries
+-----------------------------
+*/
+@media(min-width: 1200px){
+	/*All Ok*/
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	/*All Ok*/
+}
+
+/*Small Devices*/
+@media(min-width: 769px) and (max-width: 991px){
+	/*All Ok*/
+}
+/*Extra Small Devices*/
+@media(max-width: 767px){
+	/*Home Section*/
+	#home-heading h3 {
+		font-size: 25px;
+	}
+
+	.btn-general {
+		padding: 6px 22px;
+		font-size: 14px;
+	}
+	
+	
+	/*About Section*/
+	#about-bg-dagonal {
+		border-left: 0;
+		border-top: 0;
+		width: 100%;
+		height: 350px;
+	}
+
+	#about-content-box {
+		width: 100%;
+		height: 350px;
+	}
+	/*Team*/
+	.image-wrapper{
+		min-width: 100%;
+	}
+	/*testimonial*/
+	.testimonial blockquote {
+		padding: 6px 50px;
+	}
+	
+	.testimonial blockquote:before{
+		left: 10px;
+	}
+	.testimonial blockquote:after{
+		right: 10px;
+	}
+	.testimonial blockquote p {
+	font-size: 14px;
+    }
+	/*Stats Section*/
+	.stats-item {
+		padding: 5px 0;
+		text-align: center;
+	}
+	
+	#footer-copyrights {
+		text-align: center;
+	}
+	#footer-menu {
+		display: none;
+	}
+}
+/*Extra Small Mobile Devices*/
+@media(max-width: 480px){
+	/*Home Section*/
+	#home-heading h3 {
+		font-size: 20px;
+	}
+	
+	/*Services Section*/
+	.service-item-icon i {
+		padding: 7px !important;
+		width: 45px !important;
+		height: 45px !important;
+	}
+	
+	#about-content-box {
+		margin-top: 40px;
+	}
+}
+/*Extra Extra Small Mobile Devices*/
+@media(max-width: 320px){
+	
+	
+}
